@@ -73,3 +73,15 @@ body{overflow-x:hidden}
   .header__inner{justify-content:center}
   .nav{display:none}
 }
+
+/* Sticky FAB */
+.fab{
+  position:fixed; right:16px; bottom:16px; z-index:50;
+  background:#ff7a1a; color:#fff; font-weight:700;
+  border-radius:999px; padding:14px 18px; box-shadow:0 10px 20px rgba(0,0,0,.35);
+  border:0; transition:transform .15s ease, box-shadow .15s ease, filter .15s ease;
+}
+.fab:hover{filter:brightness(1.05); box-shadow:0 12px 22px rgba(0,0,0,.45); transform:translateY(-1px)}
+@media (max-width:420px){
+  .fab{right:12px; bottom:12px; padding:12px 16px}
+}
