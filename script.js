@@ -9,7 +9,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
     }
   });
 });
-
 // Netlify honeypot (simple anti-spam)
 const form = document.querySelector('form[name="lead"]');
 if(form){
