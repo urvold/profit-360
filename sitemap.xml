@@ -1,1 +1,10 @@
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'><url><loc>/</loc></url><url><loc>/uslugi/plan-trenirovok</loc></url><url><loc>/uslugi/plan-pitaniya</loc></url><url><loc>/uslugi/kombo</loc></url><url><loc>/blog/</loc></url><url><loc>/blog/plan-3-dnya/</loc></url><url><loc>/faq/</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>index.html</loc></url>
+  <url><loc>uslugi/plan-trenirovok.html</loc></url>
+  <url><loc>uslugi/plan-pitaniya.html</loc></url>
+  <url><loc>uslugi/kombo.html</loc></url>
+  <url><loc>blog/index.html</loc></url>
+  <url><loc>blog/plan-3-dnya/index.html</loc></url>
+  <url><loc>faq/index.html</loc></url>
+</urlset>
