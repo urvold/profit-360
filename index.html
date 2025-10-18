@@ -1,48 +1,125 @@
-<!DOCTYPE html><html lang='ru'><head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no'>
-<title>ProFit — Индивидуальные планы тренировок и питания</title>
-<meta name='description' content='Персональные планы тренировок и питания под вашу цель. План за 24–48 часов, поддержка и корректировки.'>
-<link rel='icon' href='/assets/favicon.png'><link rel='stylesheet' href='/styles.css'></head><body>
-<header class="header"><div class="container header__inner">
-<div class="brand"><a href="/"><img src="/assets/logo.png" class="brand__logo" alt="ProFit"></a><span class="brand__name">ProFit</span></div>
-<nav class="nav">
-<a href='/uslugi/plan-trenirovok'>План тренировок</a>
-<a href='/uslugi/plan-pitaniya'>План питания</a>
-<a href='/uslugi/kombo'>Комбо</a>
-<a href='/blog/'>Блог</a>
-<a href='/faq/'>FAQ</a>
-<a href="/#form">Заявка</a>
-</nav></div></header>
-<section class="hero"><div class="container hero__inner">
-<div class="hero__left"><h1>Индивидуальные планы тренировок и питания</h1>
-<p class="sub">Без шаблонов — по вашим данным. Учитываю травмы, уровень и предпочтения.</p>
-<div class="cta"><a class="btn btn--primary" href="#form">Получить свой план</a><a class="btn btn--ghost" href="#contacts">Написать в мессенджер</a></div>
-<p class="micro">Короткая анкета, дальше всё сделаю я. Ответ в день обращения.</p>
-</div>
-<div class="hero__right"><img src="/assets/owner_photo.png" class="hero__photo" alt="Антон, ProFit"></div>
-</div></section>
-<section id="pricing" class="section"><div class="container">
-<h2>Тарифы</h2>
-<div class="pricing">
-<div class="price-card"><h3>Старт</h3><div class="price">2 490 ₽</div><ul><li>План тренировок <em>или</em> питания</li></ul><a class="btn btn--primary" href="#form">Выбрать «Старт»</a></div>
-<div class="price-card price-card--featured"><div class="ribbon">Самый популярный</div><h3>Про</h3><div class="price">3 490 ₽</div><ul><li>Тренировки <strong>и</strong> питание</li><li>Поддержка 14 дней</li><li>1 корректировка</li></ul><a class="btn btn--primary" href="#form">Выбрать «Про»</a></div>
-<div class="price-card"><div class="ribbon ribbon--max">Максимальный результат</div><h3>Максимум</h3><div class="price">3 990 ₽</div><ul><li>Тренировки + питание</li><li>Поддержка 30 дней</li><li>2 корректировки</li><li>Еженедельный чек-ин</li></ul><a class="btn btn--primary" href="#form">Выбрать «Максимум»</a></div>
-</div>
-<p class="micro center">Гарантия: бесплатная корректировка плана в первые 7 дней.</p>
-</div></section>
-<section id="form" class="section"><div class="container">
-<h2>Получите персональный план</h2>
-<form class="lead-form"><div class="grid">
-<label>Имя*<input required placeholder="Ваше имя"></label>
-<label>Контакт (Telegram/WhatsApp/тел.)*<input required placeholder="+7 ___ ___-__-__ или @username"></label>
-</div><div class="form-actions"><button class="btn btn--primary" type="submit">Отправить анкету</button></div></form>
-</div></section>
-<section id="contacts" class="section section--alt"><div class="container"><h2>Контакты</h2>
-<div class="contacts"><a class="btn btn--messenger" href="tg://resolve?phone=79990736333">Telegram</a><a class="btn btn--messenger" href="https://wa.me/79990736333">WhatsApp</a></div>
-<div class="contact-details"><p><strong>Антон, ProFit</strong></p><p>Телефон: <span class="tel"><a href="tel:+79990736333">+7&nbsp;999&nbsp;073-63-33</a></span></p><p>Email: <a href="mailto:profit-360@mail.ru">profit-360@mail.ru</a></p></div>
-</div></section>
-<footer class="footer"><div class="container footer__inner">
-<div class="footer__left"><img src="/assets/logo.png" class="footer__logo"><span>© ProFit. Индивидуальные планы тренировок и питания.</span></div>
-<div class="footer__right"><a href="/uslugi/plan-trenirovok">План тренировок</a> · <a href="/uslugi/plan-pitaniya">План питания</a> · <a href="/uslugi/kombo">Комбо</a> · <a href="/blog/">Блог</a> · <a href="/faq/">FAQ</a></div>
-</div></footer><a href="/#form" class="fab">Получить план</a><script src="/script.js"></script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>ProFit — Индивидуальные планы тренировок и питания</title>
+  <meta name="description" content="Составлю персональный план тренировок и питания по вашим данным. Учту травмы и предпочтения. План за 24–48 часов." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <a href="index.html"><img src="assets/logo.png" alt="ProFit" class="brand__logo"></a>
+        <span class="brand__name">ProFit</span>
+      </div>
+      <nav class="nav">
+        <a href='uslugi/plan-trenirovok.html'>План тренировок</a>
+        <a href='uslugi/plan-pitaniya.html'>План питания</a>
+        <a href='uslugi/kombo.html'>Комбо</a>
+        <a href='blog/index.html'>Блог</a>
+        <a href='faq/index.html'>FAQ</a>
+        <a href="index.html#form">Заявка</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__left">
+        <h1>Индивидуальные планы<br/> тренировок и питания под вашу цель</h1>
+        <p class="sub">Составлю по вашим данным: рост, вес, возраст, цель, травмы, аллергии. Без шаблонов — только персонально.</p>
+        <div class="cta">
+          <a class="btn btn--primary" href="#form">Получить свой план</a>
+          <a class="btn btn--ghost" href="#contacts">Написать в мессенджер</a>
+        </div>
+        <p class="micro">Короткая анкета, дальше всё сделаю я. Ответ в день обращения.</p>
+      </div>
+      <div class="hero__right">
+        <img src="assets/owner_photo.png" alt="Антон, ProFit" class="hero__photo"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <div class="container">
+      <h2>Тарифы</h2>
+      <div class="pricing">
+        <div class="price-card">
+          <h3>Старт</h3>
+          <div class="price">2 490 ₽</div>
+          <ul><li>План тренировок <em>или</em> питания</li></ul>
+          <a class="btn btn--primary" href="#form">Выбрать «Старт»</a>
+        </div>
+        <div class="price-card price-card--featured">
+          <div class="ribbon">Самый популярный</div>
+          <h3>Про</h3>
+          <div class="price">3 490 ₽</div>
+          <ul><li>Тренировки <strong>и</strong> питание</li><li>Поддержка 14 дней</li><li>1 корректировка</li></ul>
+          <a class="btn btn--primary" href="#form">Выбрать «Про»</a>
+        </div>
+        <div class="price-card">
+          <div class="ribbon ribbon--max">Максимальный результат</div>
+          <h3>Максимум</h3>
+          <div class="price">3 990 ₽</div>
+          <ul><li>Тренировки + питание</li><li>Поддержка 30 дней</li><li>2 корректировки</li><li>Еженедельный чек-ин</li></ul>
+          <a class="btn btn--primary" href="#form">Выбрать «Максимум»</a>
+        </div>
+      </div>
+      <p class="micro center">Гарантия: бесплатная корректировка плана в первые 7 дней.</p>
+    </div>
+  </section>
+
+  <section id="form" class="section">
+    <div class="container">
+      <h2>Получите персональный план</h2>
+      <form name="lead" method="POST" data-netlify="true" class="lead-form">
+        <input type="hidden" name="form-name" value="lead" />
+        <div class="grid">
+          <label>Имя*<input required name="name" placeholder="Ваше имя" /></label>
+          <label>Контакт (Telegram/WhatsApp/тел.)*<input required name="contact" placeholder="+7 ___ ___-__-__ или @username" /></label>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn--primary">Отправить анкету</button>
+          <span class="micro">Не хотите заполнять форму? <a href="#contacts">Напишите в мессенджер</a>.</span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="contacts" class="section section--alt">
+    <div class="container">
+      <h2>Контакты</h2>
+      <div class="contacts">
+        <a class="btn btn--messenger" href="tg://resolve?phone=79990736333">Написать в Telegram</a>
+        <a class="btn btn--messenger" href="https://wa.me/79990736333?text=Хочу%20индивидуальный%20план%20ProFit">Написать в WhatsApp</a>
+      </div>
+      <div class="contact-details">
+        <p><strong>Антон, ProFit</strong></p>
+        <p>Телефон/WhatsApp/Telegram: <span class="tel"><a href="tel:+79990736333">+7&nbsp;999&nbsp;073-63-33</a></span></p>
+        <p>Email: <a href="mailto:profit-360@mail.ru">profit-360@mail.ru</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <img src="assets/logo.png" alt="ProFit" class="footer__logo" />
+        <span>© ProFit. Индивидуальные планы тренировок и питания.</span>
+      </div>
+      <div class="footer__right">
+        <a href="uslugi/plan-trenirovok.html">План тренировок</a> · 
+        <a href="uslugi/plan-pitaniya.html">План питания</a> · 
+        <a href="uslugi/kombo.html">Комбо</a> · 
+        <a href="blog/index.html">Блог</a> · 
+        <a href="faq/index.html">FAQ</a>
+      </div>
+    </div>
+  </footer>
+  <a href="index.html#form" class="fab">Получить план</a>
+  <script src="script.js"></script>
+
 </body></html>
